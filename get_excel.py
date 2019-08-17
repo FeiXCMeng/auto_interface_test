@@ -31,4 +31,4 @@ def get_excel(filePath):
 if __name__ == '__main__':
     ids, url, params, method, result = get_excel(".\\interface.xlsx")
     for i in range(len(url)):
-        print(url[i])
+        print(method[i])
