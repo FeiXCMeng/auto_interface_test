@@ -1,0 +1,11 @@
+[INFO]: Current Module : Interface Test
+[INFO]: Get the params, url:http://116.62.33.250:8100/feed/notification/list,params:{
+"limit":10,
+"requestId":"bce3bb51-4ea6-4e8b-8268-584a4b2cc766",
+"userId":"80115209734401911"
+},method:POST,result:code=200
+[INFO]: Get the params, url:http://116.62.33.250:8100/feed/notification/list,params:{
+"limit":10,
+"requestId":"bce3bb51-4ea6-4e8b-8268-584a4b2cc766",
+"userId":"80115209734401911"
+},method:POST,result:code=200

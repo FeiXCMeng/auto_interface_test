@@ -4,6 +4,7 @@
 @Date: 2019-07-24
 '''
 import xlrd
+from log import *
 
 def get_excel(filePath):
     ids = []
@@ -25,8 +26,8 @@ def get_excel(filePath):
 
         return ids, url, params, method, result
     except Exception as e:
-        # print("打开文件失败，失败原因是：%s" % e)
-        return {"code": 1, "result": "文件打开失败，失败原因：%s" %e}
+        # return {"code": 1, "result": "文件打开失败，失败原因：%s" %e}
+        LOG.info("文件打开失败，失败原因：%s" %e)
 
 if __name__ == '__main__':
     ids, url, params, method, result = get_excel(".\\interface.xlsx")
