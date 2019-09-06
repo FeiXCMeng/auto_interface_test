@@ -1,0 +1,5 @@
+[log-INFO-2019-09-06 11:49:02,864]: Current Module : Interface Test
+[log-INFO-2019-09-06 11:49:02,880]: Get the params, url:http://116.62.33.250:8100/feed/notification/list,method:POST
+[log-INFO-2019-09-06 11:49:05,738]: Case run sucess!
+[log-INFO-2019-09-06 11:49:05,739]: Get the params, url:http://116.62.33.250:8100/feed/notification/list,method:POST
+[log-INFO-2019-09-06 11:49:08,598]: Case run sucess!

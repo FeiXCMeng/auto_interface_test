@@ -15,14 +15,13 @@ def test_interface():
     ids, url, params, method, result = get_excel(path)
     for i in range(len(ids)):
         api = TestApi(url=url[i], params=params[i], method=method[i], result=result[i])
-        LOG.info("Get the params, url:%s,params:%s,method:%s,result:%s"%(url[i],params[i],method[i],result[i]))
+        LOG.info("Get the params, url:%s,method:%s"%(url[i],method[i]))
         api_json = api.test_api()
         json_data = api_json['result']
         assert_result = assert_method(except_result=result[i], json_data=json_data)
         if assert_result['code'] == 0:
-            print('success')
+            LOG.info("Case run sucess!")
         else:
-            print('fail')
-
+            LOG.info("Case run fail!")
 if __name__ == '__main__':
     test_interface()
